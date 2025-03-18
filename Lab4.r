@@ -90,3 +90,4 @@ library(xts)
 library(zoo)
 time_series_data <- xts(mtcars$mpg, order.by = as.Date("2025-01-01") + 1:nrow(mtcars))
 plot(time_series_data, main = "Time-Series Data")
+
